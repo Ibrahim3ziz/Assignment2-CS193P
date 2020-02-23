@@ -33,7 +33,7 @@
 		04003AB923FD9BAE007FD56C /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
 		04003ABB23FE28A1007FD56C /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		0492CB3D2401B3A8007C95A0 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
-		0492CB412401B610007C95A0 /* ButtonRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ButtonRender.swift; path = ../ButtonRender.swift; sourceTree = "<group>"; };
+		0492CB412401B610007C95A0 /* ButtonRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
