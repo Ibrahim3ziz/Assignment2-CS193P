@@ -12,7 +12,7 @@ import UIKit
 class ButtonRender {
     
     private static func getSymbol(card: Card) -> String {
-           switch card.symbol {
+           switch card.cardSymbol {
            case .square:
                return "◼︎"
            case .circle:
@@ -24,7 +24,7 @@ class ButtonRender {
        
        
        private static func getButtonSymbol(card: Card,  symbol: String) -> String {
-           switch card.number {
+           switch card.cardNumber {
            case .one: return "\(symbol)"
            case .two: return "\(symbol) \(symbol)"
            case .three: return "\(symbol) \(symbol) \(symbol)"
@@ -42,7 +42,7 @@ class ButtonRender {
        private static func getButtonAttributedTitle(card: Card, color: UIColor, title: String) -> NSAttributedString {
            var attributes: [NSAttributedString.Key: Any] = [:]
            
-           switch card.shading {
+           switch card.cardShading {
            case .solid:
                attributes[.strokeWidth] = -1
                attributes[.foregroundColor] = color

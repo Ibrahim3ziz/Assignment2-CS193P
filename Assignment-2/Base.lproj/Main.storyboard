@@ -28,7 +28,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="■■■"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q0a-WQ-h7A"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q0a-WQ-h7A"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8W5-oQ-FAc">
@@ -37,7 +37,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="■■■"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SYl-tS-QAj"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SYl-tS-QAj"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOT-Oh-ZHL">
@@ -46,7 +46,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="■■■"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gNY-C8-Plr"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gNY-C8-Plr"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2c-1A-TuP">
@@ -55,7 +55,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="■■■"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HSp-Zm-gJr"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HSp-Zm-gJr"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -69,7 +69,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="■■■"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LQB-13-fZf"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LQB-13-fZf"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18q-ge-ToE">
@@ -78,7 +78,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="■■■"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HPf-9h-tS5"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HPf-9h-tS5"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHk-qg-MUv">
@@ -87,7 +87,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="■■■"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mfA-3Y-zCV"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mfA-3Y-zCV"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yGy-2v-8Xe">
@@ -96,7 +96,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="■■■"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1uf-0m-0IA"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1uf-0m-0IA"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -110,7 +110,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="■■■"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NQe-P4-9hS"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NQe-P4-9hS"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qO-SP-CDI">
@@ -119,7 +119,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="■■■"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MgU-Ps-TtR"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MgU-Ps-TtR"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vk6-eH-1da">
@@ -128,7 +128,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="■■■"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gSR-Sq-Ucx"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gSR-Sq-Ucx"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wwD-CM-aAf">
@@ -137,7 +137,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="■■■"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZLn-xV-uXk"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZLn-xV-uXk"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -150,7 +150,7 @@
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IRP-k0-dIS"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IRP-k0-dIS"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eej-T5-0Do">
@@ -158,7 +158,7 @@
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LDQ-u1-nRl"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LDQ-u1-nRl"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jv6-qB-v12">
@@ -166,7 +166,7 @@
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eVh-eE-6Bq"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eVh-eE-6Bq"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hmi-AO-eMv">
@@ -174,7 +174,7 @@
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="scr-eR-7Hd"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="scr-eR-7Hd"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -187,7 +187,7 @@
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ipp-eB-w6H"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ipp-eB-w6H"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8s-6Z-jLd">
@@ -195,7 +195,7 @@
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6oS-3D-T9E"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6oS-3D-T9E"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIY-0V-Inh">
@@ -203,7 +203,7 @@
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PGg-t4-sF6"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PGg-t4-sF6"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hJ-6c-h7g">
@@ -211,7 +211,7 @@
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aH3-qu-RMx"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aH3-qu-RMx"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -224,7 +224,7 @@
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MBL-WS-I7p"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MBL-WS-I7p"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7p-Mt-LNI">
@@ -232,7 +232,7 @@
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VXC-Kq-SUB"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VXC-Kq-SUB"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8DE-hF-JyT">
@@ -240,7 +240,7 @@
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JhT-rZ-AUI"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JhT-rZ-AUI"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ybj-Zq-8pm">
@@ -248,7 +248,7 @@
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <connections>
-                                                    <action selector="seCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DkN-LT-5dJ"/>
+                                                    <action selector="setCardButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DkN-LT-5dJ"/>
                                                 </connections>
                                             </button>
                                         </subviews>

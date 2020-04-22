@@ -6,23 +6,22 @@
 //
 
 import Foundation
-import UIKit
 
 struct Card: Equatable,CustomStringConvertible {
-    var description: String { return "\(symbol), \(number), \(cardColor), \(shading)"}
+    var description: String { return "\(cardSymbol), \(cardNumber), \(cardColor), \(cardShading)"}
     
     static func == (lhs: Card, rhs: Card) -> Bool {
-        return lhs.symbol == rhs.symbol &&
+        return lhs.cardSymbol == rhs.cardSymbol &&
             lhs.cardColor == rhs.cardColor &&
-            lhs.number == rhs.number &&
-            lhs.shading == rhs.shading
+            lhs.cardNumber == rhs.cardNumber &&
+            lhs.cardShading == rhs.cardShading
     }
     
     
-    let symbol: Symbol
-    let number: Number
+    let cardSymbol: Symbol
+    let cardNumber: CardNumber
     let cardColor: CardColor
-    let shading: Shading
+    let cardShading: Shading
     
     
     
@@ -37,7 +36,7 @@ struct Card: Equatable,CustomStringConvertible {
         static let allProperties = [square, triangle, circle]
     }
     
-    enum Number: Int {
+    enum CardNumber: Int {
         
         case one = 1
         case two = 2

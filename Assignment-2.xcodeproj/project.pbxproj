@@ -18,6 +18,7 @@
 		04003ABC23FE28A1007FD56C /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04003ABB23FE28A1007FD56C /* IntExtension.swift */; };
 		0492CB3E2401B3A8007C95A0 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492CB3D2401B3A8007C95A0 /* ButtonExtension.swift */; };
 		0492CB422401B610007C95A0 /* ButtonRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0492CB412401B610007C95A0 /* ButtonRender.swift */; };
+		04EF7D2124140762001549E1 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF7D2024140762001549E1 /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		04003ABB23FE28A1007FD56C /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		0492CB3D2401B3A8007C95A0 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
 		0492CB412401B610007C95A0 /* ButtonRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRender.swift; sourceTree = "<group>"; };
+		04EF7D2024140762001549E1 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,20 +68,61 @@
 		04003A7C23FB7314007FD56C /* Assignment-2 */ = {
 			isa = PBXGroup;
 			children = (
-				04003A7D23FB7314007FD56C /* AppDelegate.swift */,
-				04003A7F23FB7314007FD56C /* SceneDelegate.swift */,
-				04003AB523FCE21B007FD56C /* SetCard.swift */,
-				04003AB923FD9BAE007FD56C /* SetGame.swift */,
-				04003A8123FB7314007FD56C /* ViewController.swift */,
-				0492CB412401B610007C95A0 /* ButtonRender.swift */,
-				0492CB3D2401B3A8007C95A0 /* ButtonExtension.swift */,
-				04003ABB23FE28A1007FD56C /* IntExtension.swift */,
+				04E51654244C8FD600EC8453 /* Controller */,
+				04E51653244C8FCF00EC8453 /* View */,
+				04E51652244C8FA900EC8453 /* Model */,
+				04E51656244C900200EC8453 /* Extension */,
+				04E51655244C8FF200EC8453 /* Supporting files */,
 				04003A8323FB7314007FD56C /* Main.storyboard */,
 				04003A8623FB7319007FD56C /* Assets.xcassets */,
 				04003A8823FB7319007FD56C /* LaunchScreen.storyboard */,
 				04003A8B23FB7319007FD56C /* Info.plist */,
 			);
 			path = "Assignment-2";
+			sourceTree = "<group>";
+		};
+		04E51652244C8FA900EC8453 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04003AB523FCE21B007FD56C /* SetCard.swift */,
+				04003AB923FD9BAE007FD56C /* SetGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04E51653244C8FCF00EC8453 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0492CB412401B610007C95A0 /* ButtonRender.swift */,
+				04EF7D2024140762001549E1 /* Grid.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04E51654244C8FD600EC8453 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04003A8123FB7314007FD56C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04E51655244C8FF200EC8453 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				04003A7D23FB7314007FD56C /* AppDelegate.swift */,
+				04003A7F23FB7314007FD56C /* SceneDelegate.swift */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		04E51656244C900200EC8453 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0492CB3D2401B3A8007C95A0 /* ButtonExtension.swift */,
+				04003ABB23FE28A1007FD56C /* IntExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +203,7 @@
 				04003ABA23FD9BAE007FD56C /* SetGame.swift in Sources */,
 				04003A8023FB7314007FD56C /* SceneDelegate.swift in Sources */,
 				04003ABC23FE28A1007FD56C /* IntExtension.swift in Sources */,
+				04EF7D2124140762001549E1 /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

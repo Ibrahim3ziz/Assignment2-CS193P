@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func seCardButtonTouched(_ sender: UIButton) {
+    @IBAction func setCardButtonTouched(_ sender: UIButton) {
         if let cardIndex = setCardsButton.firstIndex(of: sender) {
             if cardIndex < game.visibleCards.count {
                 game.select(card: game.visibleCards[cardIndex])
